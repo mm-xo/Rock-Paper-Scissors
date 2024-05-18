@@ -16,7 +16,6 @@ const playGame = (userChoice) => {
     let msg = document.querySelector("#msg");
     let userScore = document.querySelector("#user-score")
     let cpuScore = document.querySelector("#cpu-score")
-    let temp = 5
     if (userChoice === cpuChoice) {
         msg.innerHTML = "Draw";
     }
